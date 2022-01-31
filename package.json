@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
+    "test": "react-scripts test --watchAll=false --coverage --testResultsProcessor jest-sonar-reporter",
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
